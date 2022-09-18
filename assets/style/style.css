@@ -148,10 +148,30 @@ ul {
     border-radius: 8px;
 }
 
+.player-list li {
+    border-radius: 8px;
+    height: 140px;
+}
+
+.player-list li:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    transform: scale(1.1);
+}
+
 .lendario-list img {
     width: 100px;
     height: 140px;
     border-radius: 8px;
+}
+
+.lendario-list li {
+    border-radius: 8px;
+    height: 140px;
+}
+
+.lendario-list li:hover {
+    box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.434);
+    transform: scale(1.1);
 }
 
 .social-list {
@@ -159,16 +179,6 @@ ul {
 }
 
 .social-list li:hover {
-    transform: scale(1.1);
-}
-
-.list li {
-    border-radius: 8px;
-    height: 140px;
-}
-
-.list li:hover {
-    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
     transform: scale(1.1);
 }
 
